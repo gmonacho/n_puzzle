@@ -1,0 +1,3 @@
+[submodule "libfpp"]
+	path = libfpp
+	url = https://github.com/gmonacho/libfpp.git

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <vector>
 #include "Puzzle.hpp"
 
 using namespace std;
@@ -17,3 +18,4 @@ Puzzle::Puzzle(string puzzlePaths)
         cout << line << '\n';
     }
 }
+

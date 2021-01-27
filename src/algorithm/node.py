@@ -46,7 +46,7 @@ class Node:
         self.__h = 0
         while n_dir < max_dir:
             old_direction: Direction = copy.copy(direction)
-            if self.puzzle.grid[i][j]) != n:
+            if self.puzzle.grid[i][j] != n:
                 self.__h += 1
             if direction == Direction.RIGHT:
                 if j == index_max:

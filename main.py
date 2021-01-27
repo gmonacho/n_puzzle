@@ -13,7 +13,7 @@ if __name__ == "__main__":
             puzzle = Puzzle(parser.read_all_lines())
             node = Node(copy.copy(puzzle))
             try:
-                print(node, end='')
+                print(puzzle, end='')
             except Exception as error:
                 print(error)
             parser.close_file()
@@ -22,6 +22,4 @@ if __name__ == "__main__":
     except Exception as error:
         print('Handling run-time error:', error)
 
-
-# TODO convert puzzle grid to integer grid
 # TODO solvable check
